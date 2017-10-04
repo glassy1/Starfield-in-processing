@@ -11,7 +11,7 @@ class Star
   void update(){
     z=z-speed;
     if (z<1){
-      x=random (-width, width);
+      x = random (-width, width);
       y = random (-height, height);
       z = (width);
     }
